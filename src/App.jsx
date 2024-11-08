@@ -66,7 +66,7 @@ let ClearAll = ()=> {
         </div>
 
         <div className="input-container">
-          <label htmlFor="weidth">weidth (cm):</label>
+          <label htmlFor="weidth">weight(kg):</label>
           <input type="text" id='weidth' value={weight} onChange={(e)=>(setweight(e.target.value))} />
         </div>
 
